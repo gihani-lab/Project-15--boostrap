@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+  background-color: rgb(244, 228, 7);
+}
+
+.navbar {
+  background-color: rgb(204, 178, 10);
+  color: black;
+}
+.navbar-collapse {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#represntatives {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
